@@ -23,8 +23,8 @@ import processing.core.PApplet;
 /** EarthquakeCityMap
  * An application with an interactive map displaying earthquake data.
  * Author: UC San Diego Intermediate Software Development MOOC team
- * @author Your name here
- * Date: July 17, 2015
+ * @author Inwook Kang
+ * Date: August 27, 2016
  * */
 public class EarthquakeCityMap extends PApplet {
 
@@ -62,9 +62,7 @@ public class EarthquakeCityMap extends PApplet {
 			map = new UnfoldingMap(this, 200, 50, 700, 500, new Google.GoogleMapProvider());
 			// IF YOU WANT TO TEST WITH A LOCAL FILE, uncomment the next line
 			//earthquakesURL = "2.5_week.atom";
-		}
-		
-		
+		} 
 		
 	    map.zoomToLevel(2);
 	    
